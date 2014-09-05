@@ -1,5 +1,5 @@
 //
-//  DTDViewController.h
+//  DTDRootViewController.h
 //  FontsAug
 //
 //  Created by Tom Edgar on 8/28/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DTDViewController : UIViewController
+@interface DTDRootViewController : UITableViewController
 
 @end

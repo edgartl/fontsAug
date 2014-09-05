@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D05DEFB19B024D300CFA078 /* DTDFontsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D05DEFA19B024D300CFA078 /* DTDFontsListViewController.m */; };
+		4D05DEFE19B0268F00CFA078 /* DTDFontSizesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D05DEFD19B0268F00CFA078 /* DTDFontSizesViewController.m */; };
+		4D05DF0119B028E400CFA078 /* DTDFontInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D05DF0019B028E400CFA078 /* DTDFontInfoViewController.m */; };
 		4D75399619AFCB8200D49781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D75399519AFCB8200D49781 /* Foundation.framework */; };
 		4D75399819AFCB8200D49781 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D75399719AFCB8200D49781 /* CoreGraphics.framework */; };
 		4D75399A19AFCB8200D49781 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D75399919AFCB8200D49781 /* UIKit.framework */; };
@@ -14,13 +17,14 @@
 		4D7539A219AFCB8200D49781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7539A119AFCB8200D49781 /* main.m */; };
 		4D7539A619AFCB8200D49781 /* DTDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7539A519AFCB8200D49781 /* DTDAppDelegate.m */; };
 		4D7539A919AFCB8200D49781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7539A719AFCB8200D49781 /* Main.storyboard */; };
-		4D7539AC19AFCB8200D49781 /* DTDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7539AB19AFCB8200D49781 /* DTDViewController.m */; };
 		4D7539AE19AFCB8200D49781 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7539AD19AFCB8200D49781 /* Images.xcassets */; };
 		4D7539B519AFCB8200D49781 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7539B419AFCB8200D49781 /* XCTest.framework */; };
 		4D7539B619AFCB8200D49781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D75399519AFCB8200D49781 /* Foundation.framework */; };
 		4D7539B719AFCB8200D49781 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D75399919AFCB8200D49781 /* UIKit.framework */; };
 		4D7539BF19AFCB8200D49781 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D7539BD19AFCB8200D49781 /* InfoPlist.strings */; };
 		4D7539C119AFCB8200D49781 /* FontsAugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7539C019AFCB8200D49781 /* FontsAugTests.m */; };
+		4D7539CC19AFCC2300D49781 /* DTDFavoritesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7539CB19AFCC2300D49781 /* DTDFavoritesList.m */; };
+		4D7539CF19AFD47D00D49781 /* DTDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7539CE19AFD47D00D49781 /* DTDRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D05DEF919B024D300CFA078 /* DTDFontsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTDFontsListViewController.h; sourceTree = "<group>"; };
+		4D05DEFA19B024D300CFA078 /* DTDFontsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTDFontsListViewController.m; sourceTree = "<group>"; };
+		4D05DEFC19B0268F00CFA078 /* DTDFontSizesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTDFontSizesViewController.h; sourceTree = "<group>"; };
+		4D05DEFD19B0268F00CFA078 /* DTDFontSizesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTDFontSizesViewController.m; sourceTree = "<group>"; };
+		4D05DEFF19B028E400CFA078 /* DTDFontInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTDFontInfoViewController.h; sourceTree = "<group>"; };
+		4D05DF0019B028E400CFA078 /* DTDFontInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTDFontInfoViewController.m; sourceTree = "<group>"; };
 		4D75399219AFCB8200D49781 /* FontsAug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontsAug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D75399519AFCB8200D49781 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4D75399719AFCB8200D49781 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +55,16 @@
 		4D7539A419AFCB8200D49781 /* DTDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTDAppDelegate.h; sourceTree = "<group>"; };
 		4D7539A519AFCB8200D49781 /* DTDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTDAppDelegate.m; sourceTree = "<group>"; };
 		4D7539A819AFCB8200D49781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4D7539AA19AFCB8200D49781 /* DTDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DTDViewController.h; sourceTree = "<group>"; };
-		4D7539AB19AFCB8200D49781 /* DTDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTDViewController.m; sourceTree = "<group>"; };
 		4D7539AD19AFCB8200D49781 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D7539B319AFCB8200D49781 /* FontsAugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontsAugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7539B419AFCB8200D49781 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4D7539BC19AFCB8200D49781 /* FontsAugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FontsAugTests-Info.plist"; sourceTree = "<group>"; };
 		4D7539BE19AFCB8200D49781 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D7539C019AFCB8200D49781 /* FontsAugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontsAugTests.m; sourceTree = "<group>"; };
+		4D7539CA19AFCC2300D49781 /* DTDFavoritesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTDFavoritesList.h; sourceTree = "<group>"; };
+		4D7539CB19AFCC2300D49781 /* DTDFavoritesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTDFavoritesList.m; sourceTree = "<group>"; };
+		4D7539CD19AFD47D00D49781 /* DTDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTDRootViewController.h; sourceTree = "<group>"; };
+		4D7539CE19AFD47D00D49781 /* DTDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTDRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +126,17 @@
 			children = (
 				4D7539A419AFCB8200D49781 /* DTDAppDelegate.h */,
 				4D7539A519AFCB8200D49781 /* DTDAppDelegate.m */,
+				4D7539CA19AFCC2300D49781 /* DTDFavoritesList.h */,
+				4D7539CB19AFCC2300D49781 /* DTDFavoritesList.m */,
+				4D7539CD19AFD47D00D49781 /* DTDRootViewController.h */,
+				4D7539CE19AFD47D00D49781 /* DTDRootViewController.m */,
+				4D05DEF919B024D300CFA078 /* DTDFontsListViewController.h */,
+				4D05DEFA19B024D300CFA078 /* DTDFontsListViewController.m */,
+				4D05DEFC19B0268F00CFA078 /* DTDFontSizesViewController.h */,
+				4D05DEFD19B0268F00CFA078 /* DTDFontSizesViewController.m */,
+				4D05DEFF19B028E400CFA078 /* DTDFontInfoViewController.h */,
+				4D05DF0019B028E400CFA078 /* DTDFontInfoViewController.m */,
 				4D7539A719AFCB8200D49781 /* Main.storyboard */,
-				4D7539AA19AFCB8200D49781 /* DTDViewController.h */,
-				4D7539AB19AFCB8200D49781 /* DTDViewController.m */,
 				4D7539AD19AFCB8200D49781 /* Images.xcassets */,
 				4D75399C19AFCB8200D49781 /* Supporting Files */,
 			);
@@ -251,8 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D7539A219AFCB8200D49781 /* main.m in Sources */,
+				4D05DF0119B028E400CFA078 /* DTDFontInfoViewController.m in Sources */,
+				4D7539CF19AFD47D00D49781 /* DTDRootViewController.m in Sources */,
+				4D7539CC19AFCC2300D49781 /* DTDFavoritesList.m in Sources */,
+				4D05DEFE19B0268F00CFA078 /* DTDFontSizesViewController.m in Sources */,
 				4D7539A619AFCB8200D49781 /* DTDAppDelegate.m in Sources */,
-				4D7539AC19AFCB8200D49781 /* DTDViewController.m in Sources */,
+				4D05DEFB19B024D300CFA078 /* DTDFontsListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +481,7 @@
 				4D7539C619AFCB8200D49781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D7539C719AFCB8200D49781 /* Build configuration list for PBXNativeTarget "FontsAugTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +490,7 @@
 				4D7539C919AFCB8200D49781 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
